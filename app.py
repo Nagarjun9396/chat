@@ -75,7 +75,7 @@ if not st.session_state.logged_in:
         st.session_state.logged_in = True
         st.session_state.username = saved_user
 
-st.title("Private Chatting")
+st.title("Private Chatting App")
 
 if not st.session_state.logged_in:
     menu = st.sidebar.selectbox("Menu", ["Login", "Register"])
