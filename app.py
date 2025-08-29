@@ -135,7 +135,7 @@ else:
             st.markdown(
                 f"<div style='text-align:{align}; padding: 5px;'>"
                 f"<span style='background-color:{color}; padding:8px; border-radius:10px; display:inline-block; max-width:60%;'>"
-                f"<b>{sender}</b>: {msg}<br><small style='font-size:10px;'>{timestamp}</small></span></div>",
+                f"<b></b> {msg}<br><small style='font-size:10px;'>{timestamp}</small></span></div>",
                 unsafe_allow_html=True,
             )
 
